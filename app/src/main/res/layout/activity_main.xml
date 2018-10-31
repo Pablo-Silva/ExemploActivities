@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.opet.tds.exemploactivities.Activity.MainActivity">
+
+    <Button
+        android:onClick="selectedActivity"
+        android:id="@+id/btnFloat"
+        android:text="Float Acitivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="selectedActivity"
+        android:id="@+id/btnScrolling"
+        android:text="Scrolling Acitivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="selectedActivity"
+        android:id="@+id/btnTabbed"
+        android:text="Tabbed Acitivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="selectedActivity"
+        android:id="@+id/btnDrawer"
+        android:text="Drawer Acitivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="selectedActivity"
+        android:id="@+id/btnBottom"
+        android:text="Bottom Acitivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="selectedActivity"
+        android:id="@+id/btnMaster"
+        android:text="Master/Detail Acitivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
